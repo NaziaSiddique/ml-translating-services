@@ -974,8 +974,9 @@ a {
 }
 
 .home-page .logo__image {
-  height: 2.8rem;
-  max-width: 175px;
+  height: auto;
+  max-width: 12.5rem;
+  width: 12.5rem;
 }
 
 .home-page .site-nav {
@@ -1110,8 +1111,9 @@ a {
 }
 
 .home-page .audience-card img {
-  aspect-ratio: 1.35 / 1;
+  aspect-ratio: 1.08 / 1;
   border-radius: 0.35rem;
+  object-fit: cover;
 }
 
 .home-page .audience-card__body {
@@ -1229,10 +1231,8 @@ a {
   }
 
   .home-page .logo__image {
-    height: 2.7rem;
-    max-width: none;
-    object-fit: contain;
-    width: 4.05rem;
+    height: auto;
+    width: 8.7rem;
   }
 
   .home-page .nav-toggle {
